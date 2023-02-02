@@ -12,12 +12,12 @@ body {
     display: grid;
     justify-content: center;
     align-content:center;
-    grid-template-columns: repeat(3, auto)
+    grid-template-columns: repeat(3, auto);
 }
 
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    background-color:black
+    background-color:black;
     border: 1px solid white;
 }
